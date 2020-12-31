@@ -1,0 +1,109 @@
+<!doctype html>
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Alexis Febvre</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<style type="text/css">
+/*Décoration principale*/		
+		body{
+			background-color: #950622;
+		}
+
+		.vide {
+			color: #ffff;
+			font-size: 65px;
+		}
+
+		.return {
+			color: #ffff;
+			font-size: 35px;
+		}
+
+		.titre{
+			width: 1900px;
+			height: 85px;
+			background-color: #610a0a;
+			color : lightgray;
+			font-size: 25px;
+		}
+
+		.a {
+			color: transparent;
+		}
+
+		.clq {
+			font-size: 10px;
+		}
+/**********************/
+
+/*Premiere ligne*/
+		#l1 {
+			display: flex;
+			justify-content: space-around;
+		}
+
+/*Premier jeux (carte de voeux noel)*/
+		.img1 {
+			width: 320px;
+			height: 320px;
+			background: url(carteDeVoeux.png);
+		}
+
+		.txt1 {
+			width: 230px;
+			height: 80px;
+			color: #ffff;
+			position: relative;
+			top: 130px;
+			opacity: 0;
+		}
+
+		.bg {
+			width: 320px;
+			height: 320px;
+			background-color: #000000;
+			opacity: 0;
+		}
+
+		.img1:hover .txt1 {
+			transition: 0.2s;
+			opacity: 0.9;
+		}
+
+		.img1:hover .bg {
+			transition: 0.4s;
+			opacity: 0.7;
+		}
+
+
+	</style>
+</head>
+<body>
+	<button class="titre">Ici vous trouverez tout les jeux Scratch que j'ai fait</button>
+
+	<center>
+		<br>
+		<div id="l1">
+			
+<!--Premier jeux (carte de voeux noel)-->
+			<a href="carteDeVoeuxMath.sb3" class="a">
+				<div class="img1">
+					<div class="bg">
+						<div class="txt1">
+							<p>Carte de voeux de Noël<br>(Projet scolaire)</p>
+							<p class="clq">(cliquez pour télécharger)</p>
+						</div>
+					</div>
+				</div>
+				
+			</a>
+
+
+
+		</div>
+	</center>
+</body>
+</html>

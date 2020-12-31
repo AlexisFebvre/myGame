@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Test</title>
+	<style type="text/css">
+/*Décoration de la page*/		
+		body{
+			background-color: #950622;
+		}
+
+		.a {
+			color : transparent;
+			width: 320px;
+			height: 320px;
+		}
+
+
+
+		.titre{
+			width: 1900px;
+			height: 85px;
+			background-color: #610a0a;
+			color : lightgray;
+			font-size: 25px;
+		}
+
+		#l1 {
+			display: flex;
+			justify-content: space-around;
+		}
+
+		#l2 {
+			display: flex;
+			justify-content: space-around;
+		}
+
+/*Premiere image*/
+		.img1 {
+			width: 320px;
+			height: 320px;
+			background: url(android_jeux.png) no-repeat;
+		}
+		
+		.bg {
+			opacity: 0;
+			background-color: #000000;
+			width: 320px;
+			height: 320px;
+		}
+
+		.txt1 {
+			width: 230px;
+			height: 80px;
+			color: #ffff;
+			position: relative;
+			top: 130px;
+			opacity: 0;
+		}
+
+		.img1:hover .txt1 {
+			transition: 0.2s;
+			opacity: 0.9;
+		}
+
+		.img1:hover .bg {
+			transition: 0.4s;
+			opacity: 0.7;
+		}
+/****************/
+
+/*Deuxieme image*/
+		.img2 {
+			width: 320px;
+			height: 320px;
+			background: url(android_logiciel.png) no-repeat;
+		}
+
+		.txt2 {
+			width: 230px;
+			height: 80px;
+			color: #ffff;
+			position: relative;
+			top: 130px;
+			opacity: 0;
+
+		}
+
+		.img2:hover .txt2 {
+			transition: 0.2s;
+			opacity: 0.9;
+		}
+
+
+		.img2:hover .bg {
+			transition: 0.4s;
+			opacity: 0.7;
+		}
+/*****************/
+
+/*Troisieme box image*/
+		.img3 {
+			width: 320px;
+			height: 320px;
+			background: url(scratch.png) no-repeat;
+		}
+
+		.txt3 {
+			width: 230px;
+			height: 80px;
+			color: #ffff;
+			position: relative;
+			top: 130px;
+			opacity: 0;
+		}
+
+		.img3:hover .txt3 {
+			transition: 0.2s;
+			opacity: 0.9;
+
+		}
+
+		.img3:hover .bg {
+			transition: 0.4s;
+			opacity: 0.7;
+		}
+/**********************/
+
+/*Quatrieme box image*/
+		.img4 {
+			width: 320px;
+			height: 320px;
+			background: url(jeux_pc.png) no-repeat;
+		}
+
+		.txt4 {
+			width: 230px;
+			height: 80px;
+			color: #ffff;
+			position: relative;
+			top: 130px;
+			opacity: 0;
+		}
+
+		.img4:hover .txt4 {
+			transition: 0.2s;
+			opacity: 0.9;
+		}
+
+		.img4:hover .bg {
+			transition: 0.4s;
+			opacity: 0.7;
+		}
+/***********************/
+
+
+/*Cinquieme box image*/
+
+		.img5 {
+			width: 320px;
+			height: 320px;
+			background: url(disquette.png) no-repeat;
+		}
+
+		.txt5 {
+			width: 230;
+			height: 80;
+			color: #ffff;
+			position: relative;
+			top: 130px;
+			opacity: 0;
+		}
+
+		.img5:hover .txt5 {
+			transition: 0.2s;
+			opacity: 0.9;
+		}
+
+		.img5:hover .bg {
+			transition: 0.4s;
+			opacity: 0.7;
+		}
+
+	</style>
+</head>
+<body>
+<!-- Boutton inutile titre -->
+	<button class="titre">Ici vous trouverez tout les jeux et logiciel que j'ai codé</button>
+<!------------------------->
+
+<center>
+	<div id="l1">
+
+<!--Premiere box image -->
+		<a href="Sous_page/jeuxAndroid/jeuxAndroid.html" class="a">
+			<div class="img1">
+				<div class="bg">
+					<div class="txt1">
+						<p>Jeux Android</p>
+					</div>
+				</div>
+			</div>	
+		</a>
+<!------------->
+
+<!--Deuxieme box image -->
+		<a href="Sous_page/appAndroid/appAndroid.html" class="a">
+			<div class="img2">
+				<div class="bg">
+					<div class="txt2">
+						<p>Aplication Android</p>
+					</div>
+				</div>
+			</div>
+		</a>
+<!----------------->
+
+<!--Troisieme box image-->
+	<a href="Sous_page/Scratch/scratch.html" class="a">
+		<div class="img3">
+			<div class="bg">
+				<div class="txt3">
+					<p>Jeux Scratch</p>
+				</div>
+			</div>
+		</div>
+	</a>
+
+	</div>
+</center>
+<!------------------>
+
+<br> <br> <br>
+<center>
+	<div id="l2">
+
+<!--Quatrieme image-->
+	<a href="Sous_page/jeuxPc/jeuxPc.html" class="a">
+		<div class="img4">
+			<div class="bg">
+				<div class="txt4">
+					<p>Jeux Pc</p>
+				</div>
+			</div>
+		</div>
+	</a>	
+<!----------------->
+
+<!--Cinquieme image-->
+
+	<a href="Sous_page/logicielPc/logicielPc.html" class="a">
+		<div class="img5">
+			<div class="bg">
+				<div class="txt5">
+					<p>Logiciel Pc</p>
+				</div>
+			</div>
+		</div>
+	</a>
+
+
+	</div>
+</center>
+
+</body>
+</html>
